@@ -1,3 +1,20 @@
 {
-  "extends": "next/core-web-vitals"
+    "extends": ["next/core-web-vitals", "airbnb"],
+    "parserOptions": {},
+    "rules": {
+        "semi": ["error", "never"],
+        "max-len": ["error", { "code": 250 }],
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "no-nested-ternary": ["off"],
+        "linebreak-style": ["error", "windows"], // "unix" for linux
+        // "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/react-in-jsx-scope": "off",
+        "import/no-extraneous-dependencies": "off"
+
+
+    }
 }

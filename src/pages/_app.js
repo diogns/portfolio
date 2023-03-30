@@ -1,13 +1,17 @@
-import Navbar from '../components/Navbar';
-import '../styles/globals.css';
+/* eslint-disable react/prop-types */
+/* eslint-disable react/jsx-props-no-spreading */
+import { ThemeProvider } from 'next-themes'
+
+import Navbar from '../components/navbar/NavBar'
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Navbar />
-      <Component {...pageProps} />
-    </>
-  );
+    return (
+        <ThemeProvider attribute="class">
+            <Navbar />
+            <Component {...pageProps} />
+        </ThemeProvider>
+    )
 }
 
-export default MyApp;
+export default MyApp

@@ -1,47 +1,53 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import AboutImg from '../../public/assets/about.jpg';
+import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+import AboutImg from '../../public/assets/abaout.png'
 
-const About = () => {
-  return (
-    <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
-      <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
-        <div className='col-span-2'>
-          <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
-            About
-          </p>
-          <h2 className='py-4'>Who I Am</h2>
-          <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as
-            needed. I believe that being a great developer is not using one
-            specific language, but choosing the best tool for the job.
-          </p>
-          <p className='py-2 text-gray-600'>
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
-          </p>
-          <Link href='/#projects'>
-            <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
-            </p>
-          </Link>
-        </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
-        </div>
-      </div>
-    </div>
-  );
-};
+function About() {
+    return (
+        <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+            <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+                <div className="col-span-2">
+                    <div className="flex">
+                        <h1 className=" tracking-widest text-[#5651e5] dark:text-[#81e6d9]">
+                            About
+                        </h1>
+                        <div className="w-full h-[2.5px] bg-[#5651e5] dark:bg-[#81e6d9] m-auto ml-2" />
 
-export default About;
+                    </div>
+                    <div>
+                        <p className="py-2">
+                            Hello! I&#39;m Raul, a full-stack developer based in Lima, Peru.
+                            I love to work on exciting projects that test what I&#39;ve learnt,
+                            whilst being exposed to the power and potential of the ever-evolving
+                            technologies around us. I&#39;m always looking for better, and more importantly,
+                            ethical and accessible ways to solve the common problems we are faced with day-to-day.
+                        </p>
+                    </div>
+                    <div className="flex justify-center md:justify-start pb-2">
+                        <Link download href="https://drive.google.com/file/d/1P6BEUL3WfKCowzEwqIRyeF2MTGCdsUKW/view" alt="alt text" target="_blank" rel="noopener noreferrer">
+                            <button
+                                type="button"
+                                className="py-2 px-4 text-[#232323] dark:text-[#fff] border-4 border-[#5651e5] dark:border-[#81e6d9] rounded-none shadow-none hover:shadow-lg transition duration-300 ease-in-out"
+                            >
+                                Download Resume
+                            </button>
+                        </Link>
+                    </div>
+
+                </div>
+                <div className="w-full h-auto m-auto flex justify-center items-center rounded-full p-0 border-[16px] border-[#d9d9d9] dark:border-[#3f3f3f]">
+                    <div className="w-6/6 sm:w-4/4 rounded-full p-0 border-[16px] border-[#a6a6a6] dark:border-[#737373]">
+                        <Image
+                            src={AboutImg}
+                            className="shadow rounded-full max-w-full h-auto align-middle border-none p-0"
+                            alt="/"
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default About
