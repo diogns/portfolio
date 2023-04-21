@@ -3,7 +3,7 @@ import React from 'react'
 
 function Skills() {
     return (
-        <div id="skills" className="w-full lg:h-screen p-2">
+        <div id="skills" className="w-full flex items-center py-[6rem]">
             <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
                 <div className="flex">
                     <h1 className=" tracking-widest text-[#5651e5] dark:text-[#81e6d9]">
@@ -18,7 +18,7 @@ function Skills() {
 
                 <div className="flex items-center justify-center">
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-16 p-5 border-2 border-[#232323] dark:border-[#fff] py-10 px-12">
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
                                 <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0" />
@@ -36,7 +36,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>HTML 5</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>CSS3</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
@@ -71,7 +71,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>Nestjs</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg fill="#000000" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg">
@@ -85,7 +85,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>Nextjs</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" fill="#000000" stroke="#000000">
@@ -103,7 +103,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>MongoDB</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
@@ -118,7 +118,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>HTML 5</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
                                 <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0" />
@@ -133,7 +133,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>HTML 5</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000" stroke="#000000">
@@ -157,7 +157,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>JavaScript</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -175,7 +175,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>React</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg viewBox="-16.5 0 289 289" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#000000">
@@ -192,7 +192,7 @@ function Skills() {
                             <div className="flex justify-center"><p>Nodejs</p></div>
                         </div>
 
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg viewBox="-4 0 264 264" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" fill="#ffffff">
@@ -221,8 +221,8 @@ function Skills() {
                             <div className="flex justify-center"><p>Nodejs</p></div>
                         </div>
 
-                        <div className="p-12">
-                            <div>
+                        <div className="p-4">
+                            <div className="h-4 md:h-auto">
 
                                 <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0" />
@@ -257,7 +257,7 @@ function Skills() {
                             </div>
                             <div className="flex justify-center"><p>Nodejs</p></div>
                         </div>
-                        <div className="p-12">
+                        <div className="p-4">
                             <div>
 
                                 <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet" fill="#000000" stroke="#000000">

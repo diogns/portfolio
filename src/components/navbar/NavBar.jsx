@@ -15,9 +15,6 @@ function Navbar() {
 
     const navigations = [
         {
-            label: 'Home', alt: '', target: '', rel: '', path: '/',
-        },
-        {
             label: 'About', alt: '', target: '', rel: '', path: '/#about',
         },
         {
@@ -135,7 +132,7 @@ function Navbar() {
                     className={
                         nav
                             ? 'bg-white dark:bg-[#232323] fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen p-10 ease-in duration-500'
-                            : 'bg-white dark:bg-[#232323] fixed left-[-150%] top-0 p-10 ease-in duration-500'
+                            : 'bg-white dark:bg-[#232323] fixed left-[-200%] top-0 p-10 ease-in duration-500'
                     }
                 >
                     <div>
