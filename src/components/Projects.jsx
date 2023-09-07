@@ -72,7 +72,7 @@ function Projects() {
                                 <p className="text-lg">A dynamic and responsive portfolio.</p>
                             </li>
                             <li className="text-[#5651e5] text-3xl">
-                                <p className="text-lg">Made in Nextjs and Tailwind.</p>
+                                <p className="text-lg">Made in NextJS and Tailwind.</p>
                             </li>
                         </ul>
                     </div>
