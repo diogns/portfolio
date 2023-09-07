@@ -87,7 +87,7 @@ function Navbar() {
                     : 'bg-white dark:bg-[#232323] fixed w-full h-20 z-[100]'
             }
         >
-            <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+            <div className="flex justify-between items-center w-full h-full mx-auto p-2 max-w-[1240px]">
                 <div>
                     <NavLogo theme={theme} />
                 </div>

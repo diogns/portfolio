@@ -1,23 +1,31 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React, { useState } from 'react'
-import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
-import ContactImg from '../../public/assets/contact.jpg'
+import React from 'react'
 
-function Contact() {
+function Main() {
     return (
-        <div id="contact" className="w-full lg:h-screen">
-            <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
-                <p className="text-xl tracking-widest uppercase text-[#5651e5]">
-                    Contact
-                </p>
-                <h2 className="py-4">Get In Touch</h2>
+        <div id="contact" className="w-full h-screen text-center">
+            <div className="px-[8%] md:px-[15%] w-full h-full mx-auto p-2 flex justify-center items-center">
+                <div>
+                    <div className="flex">
+                        <h1 className=" tracking-widest text-[#5651e5] dark:text-[#81e6d9]">
+                            Contact
+                        </h1>
+                        <div className="w-full h-[2.5px] bg-[#5651e5] dark:bg-[#81e6d9] m-auto ml-2" />
+                    </div>
+                    <p className="py-4 sm:max-w-[70%] m-auto font-medium md:text-xl">
+                        I&#39;m currently open to freelance and actively looking for full-time job opportunties, so if you like what you&#39;ve seen
+                        please don&#39;t hesitate to get in touch!
+                    </p>
+                    <br />
+                    <button
+                        type="button"
+                        className="py-2 px-4 text-[#5651e5] dark:text-[#81e6d9] border-4 border-[#5651e5] dark:border-[#81e6d9] rounded-none shadow-none hover:shadow-lg transition duration-300 ease-in-out"
+                    >
+                        GET IN TOUCH
+                    </button>
+                </div>
             </div>
         </div>
     )
 }
 
-export default Contact
+export default Main

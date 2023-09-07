@@ -6,7 +6,7 @@ import AboutImg from '../../public/assets/abaout.png'
 function About() {
     return (
         <div id="about" className="w-full md:h-screen p-2 flex items-center py-[6rem]">
-            <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+            <div className="px-[8%] md:px-[20%] m-auto md:grid grid-cols-3 gap-8">
                 <div className="col-span-2">
                     <div className="flex">
                         <h1 className=" tracking-widest text-[#5651e5] dark:text-[#81e6d9]">
@@ -28,7 +28,7 @@ function About() {
                         <Link download href="https://drive.google.com/file/d/1P6BEUL3WfKCowzEwqIRyeF2MTGCdsUKW/view" alt="alt text" target="_blank" rel="noopener noreferrer">
                             <button
                                 type="button"
-                                className="py-2 px-4 text-[#232323] dark:text-[#fff] border-4 border-[#5651e5] dark:border-[#81e6d9] rounded-none shadow-none hover:shadow-lg transition duration-300 ease-in-out"
+                                className="py-2 px-4 text-[#5651e5] dark:text-[#81e6d9] border-4 border-[#5651e5] dark:border-[#81e6d9] rounded-none shadow-none hover:shadow-lg transition duration-300 ease-in-out"
                             >
                                 Download Resume
                             </button>
