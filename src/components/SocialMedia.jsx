@@ -11,7 +11,7 @@ function SocialMedia() {
         { label: 'Github', icon: <BsGithub size={25} />, path: 'https://github.com/diogns' },
         { label: 'Twitter', icon: <BsTwitter size={25} />, path: 'https://twitter.com/7RaulMoralesT' },
         { label: 'Instagram', icon: <BsInstagram size={25} />, path: 'https://www.instagram.com/raul_171297/' },
-        { label: 'Contact', icon: <AiOutlineMail size={25} />, path: '#contact' },
+        { label: 'Contact', icon: <AiOutlineMail size={25} />, path: 'mailto:raulmoralestaza@gmail.com' },
     ]
 
     return (

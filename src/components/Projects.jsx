@@ -77,6 +77,7 @@ function Projects() {
                         </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     )

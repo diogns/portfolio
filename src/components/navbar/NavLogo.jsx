@@ -16,7 +16,6 @@ function NavLogo(props) {
 
     const renderLogo = () => {
         if (!mounted) return null
-
         if (theme === 'dark') {
             return (
                 <Link href="/">

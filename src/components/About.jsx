@@ -25,7 +25,7 @@ function About() {
                         </p>
                     </div>
                     <div className="flex justify-center md:justify-start pb-2">
-                        <Link download href="https://drive.google.com/file/d/1P6BEUL3WfKCowzEwqIRyeF2MTGCdsUKW/view" alt="alt text" target="_blank" rel="noopener noreferrer">
+                        <Link download href="./RAUL_MORALES_TAZA_en.pdf" alt="alt text" target="_blank" rel="noopener noreferrer">
                             <button
                                 type="button"
                                 className="py-2 px-4 text-[#5651e5] dark:text-[#81e6d9] border-4 border-[#5651e5] dark:border-[#81e6d9] rounded-none shadow-none hover:shadow-lg transition duration-300 ease-in-out"

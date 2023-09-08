@@ -27,7 +27,7 @@ function Navbar() {
             label: 'Contact', alt: '', target: '', rel: '', path: '/#contact',
         },
         {
-            label: 'Resume', alt: 'alt text', target: '_blank', rel: 'noopener noreferrer', path: 'https://drive.google.com/file/d/1P6BEUL3WfKCowzEwqIRyeF2MTGCdsUKW/view',
+            label: 'Resume', alt: 'alt text', target: '_blank', rel: 'noopener noreferrer', path: './RAUL_MORALES_TAZA_en.pdf',
         },
     ]
 
@@ -41,7 +41,6 @@ function Navbar() {
         if (!mounted) return null
 
         const currentTheme = theme === 'system' ? systemTheme : theme
-
         if (currentTheme === 'dark') {
             return (
                 <button
@@ -96,7 +95,7 @@ function Navbar() {
                     <ul className="hidden md:flex">
 
                         {navigations.map((navItem) => (
-                            <li key={navItem.label} className="ml-10 text-sm uppercase hover:border-b">
+                            <li key={navItem.label} className="ml-10 text-sm uppercase hover:border-b border-[#232323] dark:border-[#fff]">
                                 <Link href={navItem.path} alt={navItem.alt} target={navItem.target} rel={navItem.rel}>
                                     <p>{navItem.label}</p>
                                 </Link>
